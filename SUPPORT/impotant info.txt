@@ -1,0 +1,3 @@
+-IMAGES
+1920 pixels wide by 1080 pixels high, with an aspect ratio of 16:9. This size works well because it's the resolution that most screens operate at best. It also fills the surface of the webpage without compromising the image's quality
+-

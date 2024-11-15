@@ -1,0 +1,12 @@
+<div class="value">
+              <h2>DRIVEN BY:</h2>
+              <ol>
+                <li>Environmental Stewardship</li>
+                <li>Education & Awareness</li>
+                <li>Innovation & Solution-Oriented Thinking</li>
+                <li>Transparency & Integrity</li>
+                <li>Sustainability</li>
+                <li>Empowerment</li>
+                <li>Respect for Nature</li>
+              </ol>
+            </div>

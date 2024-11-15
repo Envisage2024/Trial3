@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Envisage</title>
+    <link rel="icon" type="image/x-icon" href="Leaf 2.png">
+    <link rel="stylesheet" type="text/css" href="styling.css">
+</head>
+<body class="main">
+         <nav class="navbar">
+           <div class="dropdownmenu">
+            <div class="icon">
+                <img class="image" src="Leaf 2.png">
+            </div>
+            <h2 class="logo">ENVISAGE</h2>
+            <div class="menu">
+                <ul>
+                    <li><a href="INDEX.html">HOME</a></li>
+                    <li><a href="#">E-WASTE</a>
+                        <ul id="submenu">
+                            <a href="E-Waste.html">E-waste</a><br>
+                            <a href="Impacts.html">Impacts</a><br>
+                            <a href="E-Waste Recycling.html">E-waste Recycling</a><br>
+                            <a href="Recycling2.html">Recycling2</a><br>
+                            <a href="Technological Advances.html">Technological Advances</a><br>
+                            <a href="Management.html">Management</a>
+                            <a href="Management 2.html">Policies</a>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">ABOUT US</a></li> 
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+          </div>
+         </nav>
+        </div>
+        <div class="content">
+            <h1>SMALL STEPS,<br><span>BIG IMPACT</span></h1>
+            <p class="par">"E-waste management is not just a task,<br>
+                 it is a commitment to our planet's well-being."</p>
+            <button class="cn" ><a href="E-Waste.html">Learn More</a></button>
+        </div>
+        <div class="content">
+        "Think you know your e-waste? Test your knowledge and see if you're a recycling<br>
+         pro or still have some learning to do! Take our quick quiz and discover how much you<br>
+         really know about e-waste and its impact on the environment."
+        </div>
+        <script>
+            window.embeddedChatbotConfig = {
+            chatbotId: "-eF5go2QbtLWCxQaTXJYj",
+            domain: "www.chatbase.co"
+            }
+            </script>
+            <script
+            src="https://www.chatbase.co/embed.min.js"
+            chatbotId="-eF5go2QbtLWCxQaTXJYj"
+            domain="www.chatbase.co"
+            defer>
+            </script>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+</body> 
+<!-- Button to open Google Form -->
+<button class="btn2" onclick="openModal()">Contact Us</button>
+
+<!-- Modal container -->
+<div id="formModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScKcF9DDl3FrstXUAIctckEKlUjOo3YFE31UET_WOtQx1uSUg/viewform?embedded=true" title="Googl forms"></iframe>
+  </div>
+</div>
+
+<script>
+  // Function to open the modal
+  function openModal() {
+    document.getElementById('formModal').style.display = 'flex';
+  }
+
+  // Function to close the modal
+  function closeModal() {
+    document.getElementById('formModal').style.display = 'none';
+  }
+
+  // Close modal if clicked outside of content
+  window.onclick = function(event) {
+    var modal = document.getElementById('formModal');
+    if (event.target == modal) {
+      closeModal();
+    }
+  }
+</script>
+</html>

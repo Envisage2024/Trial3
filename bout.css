@@ -1,0 +1,141 @@
+body{
+background-color: #b1d31a7a;
+}
+.headr{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)60%, rgba(0,0,0,0.5)60%),url(tech.jpg);
+    background-position: center;
+    background-size: cover; 
+    height: 73vh;
+}
+/*drop-down*/
+.services:hover .drop-down {
+    display: block;
+  }
+  
+  .services a {
+    display: flex;
+    align-items: center;
+    transform: translateY(4px);
+  }
+  
+  .services .dropdown-icon {
+    font-size: 18px;
+    position: relative;
+    right: -5px;
+    transform: rotate(0deg);
+    transition: 0.3s ease-in-out all;
+  }
+  
+  .services:hover .dropdown-icon {
+    transform: rotate(180deg);
+  }
+  
+  .drop-down li:hover {
+    padding-bottom:15px;
+    background: rgba(0, 0, 0, 0.247);
+    color: #fff;
+    border-radius: 0.5rem;
+  }
+  .cont{
+    border: #2ea;
+    border-radius: 10px;
+    backdrop-filter: blur(100px);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .cont h1{
+    font: Arial;
+    font-size: 50px;
+    color: #06402B;
+    text-align: center;
+  }
+  .cont h2{
+    font: forte;
+    font-size: 50px;
+    color: #06402B;
+    text-align: left;
+  }
+  .frame{
+    border-radius: 10px;
+    float: right;
+    width: 400px;
+    height: 400px;
+  }
+  .spanner{
+    color: #fff;
+    font-style: Arial;
+  }
+  * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+  .sector{
+  background-color: white;
+  border: 1px solid #ccc;
+  margin: 20px 0;
+  padding: 200px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding-top: 100px;
+}
+.sector h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.sector p {
+  font-size: 1rem;
+  color: #555;
+}
+.content-block{
+  width: 80%;
+  max-width: 100%;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 4px 15px rgb(0, 0, 0);
+  color: #ffffff;
+  text-align: left;
+  font-family: Arial, Sans-serif;
+  display: flex;
+}
+h1{
+  color: forestgreen;
+  font-size: 50px;
+}
+.content-block img{
+  border: 10px;
+  height: 50%;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  bottom: auto;
+}
+.content-block p{
+  width: 50%;
+  max-width: 500px;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 4px 15px rgb(0, 0, 0);
+  color: #ffffff;
+  text-align: left;
+  font-family: Comic Sans MS;
+}
+b{
+  color: #2ea;
+}
+.mgs{
+  float: right;
+  border-radius: 12px;
+  float: right;
+  top: 0px;
+}
+
+    
